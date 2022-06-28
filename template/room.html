@@ -14,7 +14,9 @@ body {
   background-color: #f1f1f1;
   border-radius: 5px;
   padding: 10px;
-  margin: 10px 0;
+  margin: 30px 0;
+  border-color: black;
+  
 }
 
 .darker {
@@ -26,6 +28,7 @@ body {
   content: "";
   clear: both;
   display: table;
+  
 }
 
 .container img {
@@ -44,16 +47,25 @@ body {
 
 .time-right {
   float: right;
-  color: #aaa;
+  color: rgb(167, 25, 25);
 }
 
 .time-left {
   float: left;
-  color: #999;
+  color: rgb(148, 22, 22);
 }
 .jj{
   color: rgb(229, 5, 166) ;
   text-align: center;
+  font-family: 'Rubik Moonrocks', cursive;
+  background-color: white;
+  border: solid;
+  border-color: black;
+  border-radius: 70px;
+  border-width: 2px;
+  
+  
+  
 }
 </style>
 <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
@@ -88,7 +100,7 @@ setInterval(function(){
             }
         },
         error: function(response){
-            alert('An error occured')
+            // alert('An error occured')
         }
     });
 },1000);
@@ -110,23 +122,27 @@ setInterval(function(){
 
     input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: black;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    
     }
 
     input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: rgb(185, 9, 150);
     }
 
     div {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: pink;
     }
     </style>
 
